@@ -8,18 +8,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'love-pink': '#FF6B9D',
-        'love-purple': '#8B5DFF',
-        'love-blue': '#5DADE2',
-        'love-gold': '#F39C12',
-        'love-coral': '#FF7F7F',
-        'love-lavender': '#DDA0DD',
-        'love-mint': '#98FB98',
-        'love-peach': '#FFDAB9'
+        'book-burgundy': '#8B2635',
+        'book-gold': '#D4AF37',
+        'book-cream': '#F5F5DC',
+        'book-sage': '#87A96B',
+        'book-terracotta': '#C65D07',
+        'book-rose': '#E8B4B8',
+        'book-navy': '#2C3E50',
+        'book-bronze': '#CD7F32',
+        'book-ivory': '#FFFFF0',
+        'book-mauve': '#C6A4A4',
+        'book-forest': '#355E3B',
+        'book-copper': '#B87333'
       },
       fontFamily: {
-        'heading': ['Georgia', 'serif'],
-        'body': ['Inter', 'sans-serif']
+        'heading': ['Playfair Display', 'Georgia', 'serif'],
+        'body': ['Source Sans Pro', 'Inter', 'sans-serif']
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',

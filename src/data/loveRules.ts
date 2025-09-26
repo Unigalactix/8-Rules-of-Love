@@ -24,8 +24,8 @@ export const loveRules: LoveRule[] = [
       "Independence makes you a better partner"
     ],
     icon: "🧘",
-    color: "love-purple",
-    gradient: "from-purple-400 to-purple-600",
+    color: "book-burgundy",
+    gradient: "from-book-burgundy to-book-navy",
     quote: "You can't pour from an empty cup. Fill yourself first.",
     practicalTips: [
       "Spend 15 minutes daily in quiet reflection",
@@ -46,8 +46,8 @@ export const loveRules: LoveRule[] = [
       "Forgiveness liberates you from the past"
     ],
     icon: "🔄",
-    color: "love-blue",
-    gradient: "from-blue-400 to-blue-600",
+    color: "book-sage",
+    gradient: "from-book-sage to-book-forest",
     quote: "The past is a place of reference, not residence.",
     practicalTips: [
       "Journal about past relationship patterns",
@@ -68,8 +68,8 @@ export const loveRules: LoveRule[] = [
       "Regular check-ins help maintain alignment"
     ],
     icon: "💭",
-    color: "love-pink",
-    gradient: "from-pink-400 to-pink-600",
+    color: "book-rose",
+    gradient: "from-book-rose to-book-mauve",
     quote: "Love is not just a feeling; it's a conscious choice and commitment.",
     practicalTips: [
       "Write down your personal definition of love",
@@ -90,8 +90,8 @@ export const loveRules: LoveRule[] = [
       "Mutual growth strengthens relationships"
     ],
     icon: "🪞",
-    color: "love-gold",
-    gradient: "from-yellow-400 to-yellow-600",
+    color: "book-gold",
+    gradient: "from-book-gold to-book-bronze",
     quote: "In relationship, we don't just find love; we find ourselves.",
     practicalTips: [
       "Ask for feedback without getting defensive",
@@ -112,8 +112,8 @@ export const loveRules: LoveRule[] = [
       "Mission-driven relationships are more fulfilling"
     ],
     icon: "🎯",
-    color: "love-coral",
-    gradient: "from-red-400 to-red-600",
+    color: "book-terracotta",
+    gradient: "from-book-terracotta to-book-copper",
     quote: "Love without purpose is passion; purpose without love is meaningless.",
     practicalTips: [
       "Identify your core values and life mission",
@@ -134,8 +134,8 @@ export const loveRules: LoveRule[] = [
       "Support during losses and failures"
     ],
     icon: "🤝",
-    color: "love-lavender",
-    gradient: "from-purple-300 to-purple-500",
+    color: "book-navy",
+    gradient: "from-book-navy to-book-burgundy",
     quote: "A strong relationship isn't immune to problems; it's capable of solving them together.",
     practicalTips: [
       "Make decisions as a team",
@@ -156,8 +156,8 @@ export const loveRules: LoveRule[] = [
       "Growth often comes through difficult experiences"
     ],
     icon: "🌱",
-    color: "love-mint",
-    gradient: "from-green-300 to-green-500",
+    color: "book-forest",
+    gradient: "from-book-forest to-book-sage",
     quote: "Sometimes love means letting go, and sometimes letting go is the most loving thing to do.",
     practicalTips: [
       "Allow yourself to grieve the loss",
@@ -178,8 +178,8 @@ export const loveRules: LoveRule[] = [
       "Openness to love leads to fulfillment"
     ],
     icon: "♾️",
-    color: "love-peach",
-    gradient: "from-orange-300 to-orange-500",
+    color: "book-gold",
+    gradient: "from-book-gold to-book-bronze",
     quote: "Love is not diminished by being shared; it multiplies when given freely.",
     practicalTips: [
       "Practice self-compassion after heartbreak",

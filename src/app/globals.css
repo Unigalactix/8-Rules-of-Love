@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --gradient-love: linear-gradient(135deg, #FF6B9D, #8B5DFF);
-  --gradient-warm: linear-gradient(135deg, #F39C12, #FF7F7F);
-  --gradient-cool: linear-gradient(135deg, #5DADE2, #DDA0DD);
+  --gradient-book-primary: linear-gradient(135deg, #8B2635, #D4AF37);
+  --gradient-book-warm: linear-gradient(135deg, #C65D07, #CD7F32);
+  --gradient-book-sage: linear-gradient(135deg, #87A96B, #355E3B);
+  --gradient-book-rose: linear-gradient(135deg, #E8B4B8, #C6A4A4);
+  --book-paper-texture: radial-gradient(circle at 20% 50%, #FFFFF0 0%, #F5F5DC 100%);
 }
 
 html {
@@ -15,24 +17,29 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.6;
+  background: var(--book-paper-texture);
 }
 
-.gradient-love {
-  background: var(--gradient-love);
+.gradient-book-primary {
+  background: var(--gradient-book-primary);
 }
 
-.gradient-warm {
-  background: var(--gradient-warm);
+.gradient-book-warm {
+  background: var(--gradient-book-warm);
 }
 
-.gradient-cool {
-  background: var(--gradient-cool);
+.gradient-book-sage {
+  background: var(--gradient-book-sage);
 }
 
-.text-gradient {
-  background: linear-gradient(135deg, #FF6B9D, #8B5DFF);
+.gradient-book-rose {
+  background: var(--gradient-book-rose);
+}
+
+.text-gradient-book {
+  background: linear-gradient(135deg, #8B2635, #D4AF37);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
