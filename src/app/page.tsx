@@ -1,7 +1,9 @@
 'use client'
 
 import HeroSection from '../components/HeroSection'
+import AshramSection from '../components/AshramSection'
 import RuleCard from '../components/RuleCard'
+import PracticesSection from '../components/PracticesSection'
 import { loveRules, websiteContent } from '../data/loveRules'
 import { motion } from 'framer-motion'
 import { Heart, BookOpen, Star } from 'lucide-react'
@@ -37,6 +39,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Four Ashrams Section */}
+      <AshramSection />
+
       {/* Rules Section */}
       <section id="rules-section" className="py-20 px-6 bg-book-cream">
         <div className="max-w-7xl mx-auto">
@@ -62,6 +67,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Practices Section */}
+      <PracticesSection />
 
       {/* Conclusion Section */}
       <section className="py-20 px-6 bg-gradient-to-br from-book-burgundy via-book-terracotta to-book-gold">
